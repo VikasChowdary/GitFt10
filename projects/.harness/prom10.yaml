@@ -1,0 +1,13 @@
+connector:
+  name: prom10
+  identifier: prom10
+  description:
+  orgIdentifier: default
+  projectIdentifier: GitFt10
+  type: Artifactory
+  spec:
+    artifactoryServerUrl: temp.com
+    auth:
+      type: Anonymous
+    delegateSelectors:
+    - acctgroup
